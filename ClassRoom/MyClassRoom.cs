@@ -35,7 +35,7 @@ namespace ClassRoom
 
         public MyClassRoom(string className, List<string> classList, DateTime start)
         {
-            this.name = name;
+            this.ClassName = className;
             ClassList = classList;
             this.start = start;
         }
