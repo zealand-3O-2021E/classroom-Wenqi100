@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassRoom
 {
-    public class Program
+    public class MyClassRoom
     {
-        static void Main(string[] args)
-        {
-            
-        } 
+        
     }
 }
