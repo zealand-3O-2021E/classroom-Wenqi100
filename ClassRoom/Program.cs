@@ -25,7 +25,12 @@ namespace ClassRoom
             DateTime start = new DateTime(2019, 08, 26);
 
             MyClassRoom myClassRoom = new MyClassRoom("3Q",ClassList,start);
-        
+
+            /* Task 4: Print out the information that is on your classroom object via console.WriteLine ()
+             */
+
+            Console.WriteLine(myClassRoom.Print());
+            Console.ReadLine();
         }
     }
 }

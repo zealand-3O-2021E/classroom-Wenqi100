@@ -37,7 +37,14 @@ namespace ClassRoom
         {
             this.ClassName = className;
             ClassList = classList;
-            this.start = start;
+            this.SemesterStart = start;
+        }
+
+        public string Print()
+        {
+            return ClassName + "\n" +
+                   string.Join("\n", ClassList.ToArray()) + "\n" +
+                   SemesterStart.ToString("yyyy MM dd");
         }
     }
 }
