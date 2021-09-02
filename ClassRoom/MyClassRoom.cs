@@ -21,6 +21,9 @@ namespace ClassRoom
 
     public class MyClassRoom
     {
+        private string v;
+        private DateTime start;
+
         public string ClassName { get; set; }
         public List<string> ClassList { get; set; }
         public DateTime SemesterStart { get; set; }
@@ -28,6 +31,13 @@ namespace ClassRoom
         public MyClassRoom()
         {
 
+        }
+
+        public MyClassRoom(string className, List<string> classList, DateTime start)
+        {
+            this.v = v;
+            ClassList = classList;
+            this.start = start;
         }
     }
 }
