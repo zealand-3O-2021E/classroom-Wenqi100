@@ -10,9 +10,7 @@ using System.Xml.Linq;
 namespace ClassRoom
 {
     /*
-    Task 2:
-    Add a new class of "ClassRoom", with the following properties.
-
+    Task 2: Add a new class of "ClassRoom", with the following properties.
     string Class Name
     List \ Class list
     Datetime Semester Start
@@ -40,6 +38,7 @@ namespace ClassRoom
             this.SemesterStart = start;
         }
 
+        /* Task 4: Print out the information that is on your classroom object via console.WriteLine ()  */
         public string Print()
         {
             return ClassName + "\n" +

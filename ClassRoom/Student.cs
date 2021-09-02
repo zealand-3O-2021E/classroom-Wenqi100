@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace ClassRoom
 {
-    /* Task 1:
-       Add a class (public) "Student", it must contain three properties. 
-       These three properties must be visible outside of class but can only be set within this class.
-       string name
-       int birth month
-       int birthday
-   You also must have a constructor that takes three parameters so you can put your properties.
+    /* Task 1: 
+     * Add a class (public) "Student" with three properties: name, birth month and birthday. 
+     * You also must have a constructor that takes three parameters.
     */
     
     public class Student

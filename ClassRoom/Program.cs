@@ -11,8 +11,7 @@ namespace ClassRoom
         static void Main(string[] args)
         {
             /* Task 3
-            We must now add some data. We do this in the Main method.
-            Create an new instance of the ClassRoom class
+            Create an new instance of the ClassRoom class in the Main method
             Fx: Class Name: 3Q, Beginning of the semester: 26-8-2019
             Add yourself and those you sit next to in the list of students
            */
@@ -26,8 +25,7 @@ namespace ClassRoom
 
             MyClassRoom myClassRoom = new MyClassRoom("3Q",ClassList,start);
 
-            /* Task 4: Print out the information that is on your classroom object via console.WriteLine ()
-             */
+            /* Task 4: Print out the information that is on your classroom object via console.WriteLine ()  */
 
             Console.WriteLine(myClassRoom.Print());
             Console.ReadLine();
