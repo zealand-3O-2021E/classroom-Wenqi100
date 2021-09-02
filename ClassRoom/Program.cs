@@ -29,6 +29,37 @@ namespace ClassRoom
 
             Console.WriteLine(myClassRoom.Print());
             Console.ReadLine();
+
+            /* Task 6 Call the Count method.  */
+            List<int> birthMonths = new List<int>();
+            birthMonths.Add(1);
+            birthMonths.Add(2);
+            birthMonths.Add(3);
+            birthMonths.Add(4);
+            birthMonths.Add(5);
+            birthMonths.Add(6);
+            birthMonths.Add(7);
+            birthMonths.Add(8);
+            birthMonths.Add(9);
+            birthMonths.Add(10);
+            birthMonths.Add(11);
+            birthMonths.Add(12);
+            birthMonths.Add(2);
+            birthMonths.Add(5);
+            birthMonths.Add(7);
+            birthMonths.Add(8);
+            birthMonths.Add(11);
+            //birthMonth.Add(15);
+
+            Helper helper = new Helper();
+
+            foreach (int i in birthMonths)
+            {
+                Console.WriteLine(helper.Season(i));
+            }
+
+            helper.Count(birthMonths);
+            Console.ReadLine();
         }
     }
 }
